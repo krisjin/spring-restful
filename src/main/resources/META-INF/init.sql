@@ -25,8 +25,8 @@ CREATE TABLE IF NOT EXISTS `author` (
 DELETE FROM `author`;
 /*!40000 ALTER TABLE `author` DISABLE KEYS */;
 INSERT INTO `author` (`id`, `firstname`, `lastname`, `password`, `username`, `email`) VALUES
-	(1, 'Benj', 'Sicam', '$2a$10$4nz/lAntXH017MFHPX1R5.m3YEAhVICaJtrQUP87ZvGr1dEIKNyPq', 'admin', 'info@benjsicam.me'),
-	(2, 'Juan', 'dela Cruz', '$2a$10$NtDZRpRKw190x5QR/oNCMuW5Ff6yx4klaw.Qd5PP2/i8DXjZzqHaG', 'user', 'info@benjsicam.me');
+	(1, 'Benj', 'Sicam', '$2a$10$4nz/lAntXH017MFHPX1R5.m3YEAhVICaJtrQUP87ZvGr1dEIKNyPq', 'admin', 'admin@126.com'),
+	(2, 'Juan', 'dela Cruz', '$2a$10$NtDZRpRKw190x5QR/oNCMuW5Ff6yx4klaw.Qd5PP2/i8DXjZzqHaG', 'user', 'user@126.com');
 /*!40000 ALTER TABLE `author` ENABLE KEYS */;
 
 
